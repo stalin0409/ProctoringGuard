@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\downloads\\ProctoringGuardsentinal1\\ProctoringGuard\\ProctoringGuard.csproj": {}
+  },
+  "projects": {
+    "D:\\downloads\\ProctoringGuardsentinal1\\ProctoringGuard\\ProctoringGuard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\downloads\\ProctoringGuardsentinal1\\ProctoringGuard\\ProctoringGuard.csproj",
+        "projectName": "ProctoringGuard",
+        "projectPath": "D:\\downloads\\ProctoringGuardsentinal1\\ProctoringGuard\\ProctoringGuard.csproj",
+        "packagesPath": "C:\\Users\\StaKAE00432\\.nuget\\packages\\",
+        "outputPath": "D:\\downloads\\ProctoringGuardsentinal1\\ProctoringGuard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\StaKAE00432\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows10.0.19041": {
+            "targetAlias": "net8.0-windows10.0.19041.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows10.0.19041": {
+          "targetAlias": "net8.0-windows10.0.19041.0",
+          "dependencies": {
+            "ManagedNativeWifi": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.56, 10.0.19041.56]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.125/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
